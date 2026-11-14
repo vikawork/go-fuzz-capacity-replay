@@ -1,0 +1,8 @@
+=== RUN   TestCounterexample
+{"kind":"counterexample","case":"solver_model","length":59,"capacity":59,"header_len":45,"body_len":221,"panicked":true,"panic":"runtime error: slice bounds out of range [:270] with capacity 59","accepted":false,"returned_header_len":0,"returned_body_len":0,"header_hex":"","body_hex":""}
+{"kind":"counterexample","case":"solver_model","length":59,"capacity":1024,"header_len":45,"body_len":221,"panicked":false,"accepted":true,"returned_header_len":45,"returned_body_len":221,"header_hex":"000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000","body_hex":"000000000000000000000000
+{"kind":"counterexample","case":"published_counterexample","length":59,"capacity":59,"header_len":48,"body_len":236,"panicked":true,"panic":"runtime error: slice bounds out of range [:288] with capacity 59","accepted":false,"returned_header_len":0,"returned_body_len":0,"header_hex":"","body_hex":""}
+{"kind":"counterexample","case":"published_counterexample","length":59,"capacity":1024,"header_len":48,"body_len":236,"panicked":false,"accepted":true,"returned_header_len":48,"returned_body_len":236,"header_hex":"000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000","body_hex":"000000
+--- PASS: TestCounterexample (0.00s)
+PASS
+ok  	gosolver-demo/source	0.002s

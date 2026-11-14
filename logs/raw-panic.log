@@ -1,0 +1,20 @@
+--- FAIL: TestRawPanic (0.00s)
+panic: runtime error: slice bounds out of range [:288] with capacity 59 [recovered, repanicked]
+
+goroutine 7 [running]:
+testing.tRunner.func1.2({0x820958, 0xdfb91a322a0})
+	<job>/toolchains/go1.27.3/go/src/testing/testing.go:2125 +0x232
+testing.tRunner.func1()
+	<job>/toolchains/go1.27.3/go/src/testing/testing.go:2128 +0x329
+panic({0x820958?, 0xdfb91a322a0?})
+	<job>/toolchains/go1.27.3/go/src/runtime/panic.go:859 +0x125
+gosolver-demo/source.ParseTwoChunkFrame(...)
+	<job>/demo/source/published_parser.go:16
+gosolver-demo/source.TestRawPanic(0xdfb91bbc248?)
+	<job>/demo/source/raw_panic_test.go:7 +0x14
+testing.tRunner(0xdfb91bbc248, 0x830168)
+	<job>/toolchains/go1.27.3/go/src/testing/testing.go:2195 +0xea
+created by testing.(*T).Run in goroutine 1
+	<job>/toolchains/go1.27.3/go/src/testing/testing.go:2260 +0x4d4
+FAIL	gosolver-demo/source	0.003s
+FAIL

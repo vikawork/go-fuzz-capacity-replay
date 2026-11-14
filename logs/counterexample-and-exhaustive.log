@@ -1,0 +1,13 @@
+=== RUN   TestCounterexample
+{"kind":"counterexample","case":"solver_model","length":59,"capacity":59,"header_len":48,"body_len":236,"panicked":true,"panic":"runtime error: slice bounds out of range [:288] with capacity 59","accepted":false,"returned_header_len":0,"returned_body_len":0,"header_hex":"","body_hex":""}
+{"kind":"counterexample","case":"solver_model","length":59,"capacity":1024,"header_len":48,"body_len":236,"panicked":false,"accepted":true,"returned_header_len":48,"returned_body_len":236,"header_hex":"000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000","body_hex":"0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"}
+--- PASS: TestCounterexample (0.00s)
+=== RUN   TestExhaustive
+{"kind":"exhaustive","length":32,"capacity":32,"pairs":65536,"panics":6989,"accepted":435,"rejected":58112}
+{"kind":"exhaustive","length":59,"capacity":59,"pairs":65536,"panics":12740,"accepted":1596,"rejected":51200}
+{"kind":"exhaustive","length":64,"capacity":64,"pairs":65536,"panics":13725,"accepted":1891,"rejected":49920}
+{"kind":"exhaustive","length":128,"capacity":128,"pairs":65536,"panics":24125,"accepted":7875,"rejected":33536}
+{"kind":"exhaustive","length":256,"capacity":256,"pairs":65536,"panics":32637,"accepted":32131,"rejected":768}
+--- PASS: TestExhaustive (0.04s)
+PASS
+ok  	gosolver-demo/source	0.040s

@@ -1,0 +1,3 @@
+# gosolver-demo/source
+source/published_parser.go:16:12: Found IsSliceInBounds
+source/published_parser.go:16:27: Found IsSliceInBounds

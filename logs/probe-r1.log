@@ -1,0 +1,8 @@
+warning: starting with empty corpus
+fuzz: elapsed: 0s, execs: 0 (0/sec), new interesting: 0 (total: 0)
+fuzz: elapsed: 3s, execs: 3040208 (1013286/sec), new interesting: 3 (total: 3)
+fuzz: elapsed: 6s, execs: 6093598 (1017712/sec), new interesting: 3 (total: 3)
+fuzz: elapsed: 9s, execs: 9240264 (1049029/sec), new interesting: 3 (total: 3)
+fuzz: elapsed: 10s, execs: 10284242 (999108/sec), new interesting: 3 (total: 3)
+PASS
+ok  	gosolver-demo/source	10.048s

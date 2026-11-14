@@ -1,0 +1,36 @@
+warning: starting with empty corpus
+fuzz: elapsed: 0s, execs: 0 (0/sec), new interesting: 0 (total: 0)
+fuzz: minimizing 37-byte failing input file
+fuzz: elapsed: 0s, minimizing
+--- FAIL: FuzzTwoChunkClipped (0.32s)
+    --- FAIL: FuzzTwoChunkClipped (0.00s)
+        testing.go:2078: panic: runtime error: slice bounds out of range [:52] with capacity 4
+            goroutine 3430 [running]:
+            runtime/debug.Stack()
+            	<job>/toolchains/go1.27.3/go/src/runtime/debug/stack.go:26 +0x9b
+            testing.tRunner.func1()
+            	<job>/toolchains/go1.27.3/go/src/testing/testing.go:2078 +0x1b0
+            panic({0x8d6ef8?, 0x13ca2d4ce120?})
+            	<job>/toolchains/go1.27.3/go/src/runtime/panic.go:859 +0x125
+            gosolver-demo/source.ParseTwoChunkFrame(...)
+            	<job>/demo/source/published_parser.go:16
+            gosolver-demo/source.FuzzTwoChunkClipped.func1(0x0?, {0x13ca3404c4e0, 0x4, 0x48c2d3?})
+            	<job>/demo/source/harness_test.go:137 +0x210
+            reflect.Value.call({0x8a2ff8?, 0x8e67c8?, 0x13?}, {0x6b23b2, 0x4}, {0x13ca3403b950, 0x2, 0x2?})
+            	<job>/toolchains/go1.27.3/go/src/reflect/value.go:586 +0xed9
+            reflect.Value.Call({0x8a2ff8?, 0x8e67c8?, 0x5617a8?}, {0x13ca3403b950?, 0x8e2e28?, 0x6ef7b1?})
+            	<job>/toolchains/go1.27.3/go/src/reflect/value.go:369 +0xb9
+            testing.(*F).Fuzz.func1.1(0x13ca34094248?)
+            	<job>/toolchains/go1.27.3/go/src/testing/fuzz.go:341 +0x312
+            testing.tRunner(0x13ca34094248, 0x13ca34090510)
+            	<job>/toolchains/go1.27.3/go/src/testing/testing.go:2195 +0xea
+            created by testing.(*F).Fuzz.func1 in goroutine 7
+            	<job>/toolchains/go1.27.3/go/src/testing/fuzz.go:328 +0x678
+            
+    
+    Failing input written to testdata/fuzz/FuzzTwoChunkClipped/4a2a13f681a03928
+    To re-run:
+    go test -run=FuzzTwoChunkClipped/4a2a13f681a03928
+FAIL
+exit status 1
+FAIL	gosolver-demo/source	0.327s

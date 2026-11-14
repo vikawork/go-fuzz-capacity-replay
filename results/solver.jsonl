@@ -1,0 +1,40 @@
+{"script": "published_solver.py", "run": 1, "exit": 0, "seconds_process": 0.0523, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 2, "exit": 0, "seconds_process": 0.0494, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 3, "exit": 0, "seconds_process": 0.0516, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 4, "exit": 0, "seconds_process": 0.0524, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 5, "exit": 0, "seconds_process": 0.0515, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 6, "exit": 0, "seconds_process": 0.0537, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 7, "exit": 0, "seconds_process": 0.0495, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 8, "exit": 0, "seconds_process": 0.0533, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 9, "exit": 0, "seconds_process": 0.0523, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 10, "exit": 0, "seconds_process": 0.0523, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 11, "exit": 0, "seconds_process": 0.0533, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 12, "exit": 0, "seconds_process": 0.052, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 13, "exit": 0, "seconds_process": 0.0522, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 14, "exit": 0, "seconds_process": 0.0532, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 15, "exit": 0, "seconds_process": 0.051, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 16, "exit": 0, "seconds_process": 0.0527, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 17, "exit": 0, "seconds_process": 0.0536, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 18, "exit": 0, "seconds_process": 0.0523, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 19, "exit": 0, "seconds_process": 0.0488, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "published_solver.py", "run": 20, "exit": 0, "seconds_process": 0.0536, "output": "[length = 59,\n bodyLen8 = 236,\n hdrLen8 = 48,\n b0 = 165,\n capacity = 59,\n b1 = 90]"}
+{"script": "handwritten.py", "run": 1, "exit": 0, "seconds_process": 0.0517, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 2, "exit": 0, "seconds_process": 0.0507, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 3, "exit": 0, "seconds_process": 0.0507, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 4, "exit": 0, "seconds_process": 0.0492, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 5, "exit": 0, "seconds_process": 0.0532, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 6, "exit": 0, "seconds_process": 0.0515, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 7, "exit": 0, "seconds_process": 0.0513, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 8, "exit": 0, "seconds_process": 0.0504, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 9, "exit": 0, "seconds_process": 0.0523, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 10, "exit": 0, "seconds_process": 0.0528, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 11, "exit": 0, "seconds_process": 0.0525, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 12, "exit": 0, "seconds_process": 0.0508, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 13, "exit": 0, "seconds_process": 0.054, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 14, "exit": 0, "seconds_process": 0.0521, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 15, "exit": 0, "seconds_process": 0.0504, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 16, "exit": 0, "seconds_process": 0.0513, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 17, "exit": 0, "seconds_process": 0.0497, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 18, "exit": 0, "seconds_process": 0.0515, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 19, "exit": 0, "seconds_process": 0.0506, "output": "sat\n[header = 45, body = 221]"}
+{"script": "handwritten.py", "run": 20, "exit": 0, "seconds_process": 0.0525, "output": "sat\n[header = 45, body = 221]"}

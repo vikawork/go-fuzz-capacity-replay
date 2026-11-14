@@ -1,0 +1,15 @@
+{
+  "article_url": "https://developers.googleblog.com/catch-go-bugs-that-fuzzing-misses-with-gemini-and-a-constraint-solver/",
+  "publication_date": "2026-11-12",
+  "publisher": "Google Developers Blog",
+  "article_response_sha256": "769747341cfa509ab0bcf57c40d24c0f70ec4267cb7ab790ef0b45a19b364276",
+  "code_sha256": {
+    "parser": "f18e5243dcc5b8fce96b867480a2eeddb136f58eda62a5224adb72d30e7e07d4",
+    "solver": "d6362974e54fbb265c7e4f79f0db4e150b1a63b7857d43c38199aa2b13c7ebad",
+    "clip": "5e6e49078f6a917bee2134a24bbf4d40726b918a0a0c30c4357a39842883fd50"
+  },
+  "licence_notice_in_selected_blocks": false,
+  "go_archive_sha256": "65efbc80fdc1fa2cd2631cad5b481777a68e8725f34e89f50fc6ac714e379b40",
+  "z3_wheel_sha256": "e680ce083683abca5d07c3e55c2f620ff9a29cb91c548eeeea27ae29e8060522",
+  "z3_distribution_version": "5.4.1.0"
+}

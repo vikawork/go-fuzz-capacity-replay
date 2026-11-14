@@ -1,0 +1,124 @@
+# gosolver-demo/source
+gosolver-demo/source.ParseTwoChunkFrame STEXT size=222 align=0x0 args=0x18 locals=0x8 funcid=0x0
+	0x0000 00000 (<job>/demo/source/published_parser.go:5)	TEXT	gosolver-demo/source.ParseTwoChunkFrame(SB), ABIInternal, $0-24
+	0x0000 00000 (<job>/demo/source/published_parser.go:5)	MOV	16(g), X6
+	0x0004 00004 (<job>/demo/source/published_parser.go:5)	PCDATA	$0, $-2
+	0x0004 00004 (<job>/demo/source/published_parser.go:5)	BLTU	X6, SP, $24
+	0x0008 00008 (<job>/demo/source/published_parser.go:5)	PCDATA	$1, $-1
+	0x0008 00008 (<job>/demo/source/published_parser.go:5)	MOV	X10, 8(SP)
+	0x000a 00010 (<job>/demo/source/published_parser.go:5)	MOV	X11, 16(SP)
+	0x000c 00012 (<job>/demo/source/published_parser.go:5)	MOV	X12, 24(SP)
+	0x000e 00014 (<job>/demo/source/published_parser.go:5)	JAL	X5, runtime.morestack_noctxt(SB)
+	0x0012 00018 (<job>/demo/source/published_parser.go:5)	PCDATA	$0, $-1
+	0x0012 00018 (<job>/demo/source/published_parser.go:5)	MOV	8(SP), X10
+	0x0014 00020 (<job>/demo/source/published_parser.go:5)	MOV	16(SP), X11
+	0x0016 00022 (<job>/demo/source/published_parser.go:5)	MOV	24(SP), X12
+	0x0018 00024 (<job>/demo/source/published_parser.go:5)	JAL	X0, $-24
+	0x001c 00028 (<job>/demo/source/published_parser.go:5)	NOP
+	0x001c 00028 (<job>/demo/source/published_parser.go:5)	PCDATA	$0, $-2
+	0x001c 00028 (<job>/demo/source/published_parser.go:5)	MOV	X1, -8(SP)
+	0x0020 00032 (<job>/demo/source/published_parser.go:5)	ADDI	$-8, SP, SP
+	0x0022 00034 (<job>/demo/source/published_parser.go:5)	PCDATA	$0, $-1
+	0x0022 00034 (<job>/demo/source/published_parser.go:5)	MOV	X1, (SP)
+	0x0024 00036 (<job>/demo/source/published_parser.go:5)	MOV	X10, gosolver-demo/source.buf+16(FP)
+	0x0026 00038 (<job>/demo/source/published_parser.go:5)	FUNCDATA	$0, gclocals·wvjpxkknJ4nY1JtrArJJaw==(SB)
+	0x0026 00038 (<job>/demo/source/published_parser.go:5)	FUNCDATA	$1, gclocals·J26BEvPExEQhJvjp9E8Whg==(SB)
+	0x0026 00038 (<job>/demo/source/published_parser.go:5)	FUNCDATA	$5, gosolver-demo/source.ParseTwoChunkFrame.arginfo1(SB)
+	0x0026 00038 (<job>/demo/source/published_parser.go:5)	FUNCDATA	$6, gosolver-demo/source.ParseTwoChunkFrame.argliveinfo(SB)
+	0x0026 00038 (<job>/demo/source/published_parser.go:5)	PCDATA	$3, $1
+	0x0026 00038 (<job>/demo/source/published_parser.go:6)	MOV	$4, X9
+	0x0028 00040 (<job>/demo/source/published_parser.go:6)	BLT	X11, X9, $28
+	0x002c 00044 (<job>/demo/source/published_parser.go:6)	MOVBU	(X10), X9
+	0x0030 00048 (<job>/demo/source/published_parser.go:6)	MOV	$165, X13
+	0x0034 00052 (<job>/demo/source/published_parser.go:6)	BNE	X13, X9, $16
+	0x0038 00056 (<job>/demo/source/published_parser.go:6)	MOVBU	1(X10), X9
+	0x003c 00060 (<job>/demo/source/published_parser.go:6)	MOV	$90, X13
+	0x0040 00064 (<job>/demo/source/published_parser.go:6)	BEQ	X13, X9, $24
+	0x0044 00068 (<job>/demo/source/published_parser.go:7)	MOV	$0, X10
+	0x0046 00070 (<job>/demo/source/published_parser.go:7)	MOV	$0, X11
+	0x0048 00072 (<job>/demo/source/published_parser.go:7)	MOV	X11, X12
+	0x004a 00074 (<job>/demo/source/published_parser.go:7)	MOV	X10, X13
+	0x004c 00076 (<job>/demo/source/published_parser.go:7)	MOV	X11, X14
+	0x004e 00078 (<job>/demo/source/published_parser.go:7)	MOV	X11, X15
+	0x0050 00080 (<job>/demo/source/published_parser.go:7)	MOV	(SP), X1
+	0x0052 00082 (<job>/demo/source/published_parser.go:7)	ADDI	$8, SP, SP
+	0x0054 00084 (<job>/demo/source/published_parser.go:7)	JALR	X0, X1
+	0x0058 00088 (<job>/demo/source/published_parser.go:9)	MOVBU	2(X10), X9
+	0x005c 00092 (<job>/demo/source/published_parser.go:9)	MOVBU	3(X10), X16
+	0x0060 00096 (<job>/demo/source/published_parser.go:10)	ADD	X16, X9, X5
+	0x0064 00100 (<job>/demo/source/published_parser.go:11)	MOVBU	X5, X5
+	0x0068 00104 (<job>/demo/source/published_parser.go:11)	ADDI	$4, X5, X5
+	0x006a 00106 (<job>/demo/source/published_parser.go:11)	BLT	X11, X5, $82
+	0x006e 00110 (<job>/demo/source/published_parser.go:14)	MOV	X9, X11
+	0x0070 00112 (<job>/demo/source/published_parser.go:15)	MOV	X16, X14
+	0x0072 00114 (<job>/demo/source/published_parser.go:15)	ADD	X14, X11, X9
+	0x0076 00118 (<job>/demo/source/published_parser.go:14)	ADDI	$4, X11, X16
+	0x007a 00122 (<job>/demo/source/published_parser.go:16)	BLTU	X12, X16, $94
+	0x007e 00126 (<job>/demo/source/published_parser.go:16)	ADDI	$-4, X12, X5
+	0x0082 00130 (<job>/demo/source/published_parser.go:16)	NEG	X5, X6
+	0x0086 00134 (<job>/demo/source/published_parser.go:16)	SRAI	$63, X6, X6
+	0x008a 00138 (<job>/demo/source/published_parser.go:16)	ANDI	$4, X6, X6
+	0x008e 00142 (<job>/demo/source/published_parser.go:16)	ADD	X10, X6, X6
+	0x0090 00144 (<job>/demo/source/published_parser.go:15)	ADDI	$4, X9, X9
+	0x0092 00146 (<job>/demo/source/published_parser.go:16)	BLTU	X12, X9, $66
+	0x0096 00150 (<job>/demo/source/published_parser.go:16)	BLTU	X9, X16, $58
+	0x009a 00154 (<job>/demo/source/published_parser.go:16)	SUB	X11, X12, X9
+	0x009e 00158 (<job>/demo/source/published_parser.go:16)	ADDI	$-4, X9, X15
+	0x00a2 00162 (<job>/demo/source/published_parser.go:16)	NEG	X15, X9
+	0x00a6 00166 (<job>/demo/source/published_parser.go:16)	SRAI	$63, X9, X9
+	0x00a8 00168 (<job>/demo/source/published_parser.go:16)	AND	X16, X9, X9
+	0x00ac 00172 (<job>/demo/source/published_parser.go:16)	ADD	X10, X9, X13
+	0x00b0 00176 (<job>/demo/source/published_parser.go:16)	MOV	X6, X10
+	0x00b2 00178 (<job>/demo/source/published_parser.go:16)	MOV	X5, X12
+	0x00b4 00180 (<job>/demo/source/published_parser.go:16)	MOV	(SP), X1
+	0x00b6 00182 (<job>/demo/source/published_parser.go:16)	ADDI	$8, SP, SP
+	0x00b8 00184 (<job>/demo/source/published_parser.go:16)	JALR	X0, X1
+	0x00bc 00188 (<job>/demo/source/published_parser.go:12)	MOV	$0, X10
+	0x00be 00190 (<job>/demo/source/published_parser.go:12)	MOV	$0, X11
+	0x00c0 00192 (<job>/demo/source/published_parser.go:12)	MOV	X11, X12
+	0x00c2 00194 (<job>/demo/source/published_parser.go:12)	MOV	X10, X13
+	0x00c4 00196 (<job>/demo/source/published_parser.go:12)	MOV	X11, X14
+	0x00c6 00198 (<job>/demo/source/published_parser.go:12)	MOV	X11, X15
+	0x00c8 00200 (<job>/demo/source/published_parser.go:12)	MOV	(SP), X1
+	0x00ca 00202 (<job>/demo/source/published_parser.go:12)	ADDI	$8, SP, SP
+	0x00cc 00204 (<job>/demo/source/published_parser.go:12)	JALR	X0, X1
+	0x00d0 00208 (<job>/demo/source/published_parser.go:16)	PCDATA	$1, $1
+	0x00d0 00208 (<job>/demo/source/published_parser.go:16)	PCDATA	$4, $5466
+	0x00d0 00208 (<job>/demo/source/published_parser.go:16)	JAL	X1, runtime.panicBounds(SB)
+	0x00d4 00212 (<job>/demo/source/published_parser.go:16)	PCDATA	$4, $8417
+	0x00d4 00212 (<job>/demo/source/published_parser.go:16)	JAL	X1, runtime.panicBounds(SB)
+	0x00d8 00216 (<job>/demo/source/published_parser.go:16)	PCDATA	$4, $8921
+	0x00d8 00216 (<job>/demo/source/published_parser.go:16)	JAL	X1, runtime.panicBounds(SB)
+	0x00dc 00220 (<job>/demo/source/published_parser.go:16)	ADDI	$0, X0, X0
+	0x0000 03 b3 0d 01 63 6c 23 00 2a e4 2e e8 32 ec ef 02  ....cl#.*...2...
+	0x0010 00 00 22 65 c2 65 62 66 6f f0 9f fe 23 3c 11 fe  .."e.ebfo...#<..
+	0x0020 61 11 06 e0 2a e8 91 44 63 ce 95 00 83 44 05 00  a...*..Dc....D..
+	0x0030 93 06 50 0a 63 98 96 00 83 44 15 00 93 06 a0 05  ..P.c....D......
+	0x0040 63 8c 96 00 01 45 81 45 2e 86 aa 86 2e 87 ae 87  c....E.E........
+	0x0050 82 60 21 01 67 80 00 00 83 44 25 00 03 48 35 00  .`!.g....D%..H5.
+	0x0060 b3 82 04 01 93 f2 f2 0f 91 02 63 c9 55 04 a6 85  ..........c.U...
+	0x0070 42 87 b3 84 e5 00 13 88 45 00 63 6f 06 05 93 02  B.......E.co....
+	0x0080 c6 ff 33 03 50 40 13 53 f3 43 13 73 43 00 2a 93  ..3.P@.S.C.sC.*.
+	0x0090 91 04 63 61 96 04 63 ed 04 03 b3 04 b6 40 93 87  ..ca..c......@..
+	0x00a0 c4 ff b3 04 f0 40 fd 94 b3 f4 04 01 b3 86 a4 00  .....@..........
+	0x00b0 1a 85 16 86 82 60 21 01 67 80 00 00 01 45 81 45  .....`!.g....E.E
+	0x00c0 2e 86 aa 86 2e 87 ae 87 82 60 21 01 67 80 00 00  .........`!.g...
+	0x00d0 ef 00 00 00 ef 00 00 00 ef 00 00 00 01 00        ..............
+	rel 14+4 t=R_RISCV_JAL runtime.morestack_noctxt+0
+	rel 208+4 t=R_RISCV_JAL runtime.panicBounds+0
+	rel 212+4 t=R_RISCV_JAL runtime.panicBounds+0
+	rel 216+4 t=R_RISCV_JAL runtime.panicBounds+0
+go:cuinfo.producer.gosolver-demo/source SDWARFCUINFO dupok size=0 align=0x0
+	0x0000 72 65 67 61 62 69                                regabi
+go:cuinfo.packagename.gosolver-demo/source SDWARFCUINFO dupok size=0 align=0x0
+	0x0000 64 65 6d 6f                                      demo
+gclocals·wvjpxkknJ4nY1JtrArJJaw== SRODATA dupok size=10 align=0x4
+	0x0000 02 00 00 00 01 00 00 00 01 00                    ..........
+gclocals·J26BEvPExEQhJvjp9E8Whg== SRODATA dupok size=8 align=0x4
+	0x0000 02 00 00 00 00 00 00 00                          ........
+gosolver-demo/source.ParseTwoChunkFrame.arginfo1 SRODATA static dupok size=9 align=0x1
+	0x0000 fe 00 08 08 08 10 08 fd ff                       .........
+gosolver-demo/source.ParseTwoChunkFrame.argliveinfo SRODATA static dupok size=2 align=0x1
+	0x0000 00 00                                            ..
+source/published_parser.go:16:12: Found IsSliceInBounds
+source/published_parser.go:16:27: Found IsSliceInBounds

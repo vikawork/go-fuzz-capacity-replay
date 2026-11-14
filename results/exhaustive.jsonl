@@ -1,0 +1,5 @@
+{"kind": "exhaustive", "length": 32, "capacity": 32, "pairs": 65536, "panics": 6989, "accepted": 435, "rejected": 58112}
+{"kind": "exhaustive", "length": 59, "capacity": 59, "pairs": 65536, "panics": 12740, "accepted": 1596, "rejected": 51200}
+{"kind": "exhaustive", "length": 64, "capacity": 64, "pairs": 65536, "panics": 13725, "accepted": 1891, "rejected": 49920}
+{"kind": "exhaustive", "length": 128, "capacity": 128, "pairs": 65536, "panics": 24125, "accepted": 7875, "rejected": 33536}
+{"kind": "exhaustive", "length": 256, "capacity": 256, "pairs": 65536, "panics": 32637, "accepted": 32131, "rejected": 768}
